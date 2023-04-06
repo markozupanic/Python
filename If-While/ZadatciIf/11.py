@@ -7,6 +7,7 @@ unos = input("Zelite li mnozit:")
 if(unos == "da"):
     a=int(input("Unesite broj"))
     b=int(input("Unesite broj"))
+    print(a*b)
     if(a>10 or b>10):
       print("Unjeli ste broj koji je veći od 10 ili manje od 10 ")
     else:

@@ -9,7 +9,7 @@ likovni=int(input("Ocjena: "))
 prosjek_ocjena=(hrvatski+engleski+vjeronauk+tjelesni+likovni)/5
 print(prosjek_ocjena)
 
-if(prosjek_ocjena>=1 and prosjek_ocjena<=3):
+if(prosjek_ocjena>=1 and prosjek_ocjena<=3.5):
     print("Los uspjeh")
 else:
     print("Dobar uspjeh")
