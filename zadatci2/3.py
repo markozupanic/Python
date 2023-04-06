@@ -1,4 +1,4 @@
-varijabla="   ja sAm marko"
+varijabla="ja sAm marko"
 
 veliko_slovo=varijabla.capitalize()
 print(veliko_slovo)

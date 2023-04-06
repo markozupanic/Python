@@ -1,4 +1,4 @@
-recenica="U kuhinji je stol STOL novi stol"
+recenica="U kuhinji je stol STOL novi "
 
 recenica_lower=recenica.lower()
 print(recenica_lower)
