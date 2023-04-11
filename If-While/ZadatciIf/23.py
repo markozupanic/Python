@@ -4,7 +4,7 @@
 broj=int(input("Unesi broj: "))
 
 if(broj%3==2):
-    print(broj-2)
+    print(broj+1)
 elif(broj%3==1):
     print(broj-1)
 else:

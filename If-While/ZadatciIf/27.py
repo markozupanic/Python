@@ -5,8 +5,8 @@
 rijec=input("Unesi riječ: ")
 nastavak="-py"
 prvo_slovo=rijec[0]
-print(prvo_slovo)
-nova_rijec=rijec[1:-1]+rijec[0]+nastavak
+#print(prvo_slovo)
+nova_rijec=rijec[1: ]+rijec[0]+nastavak
 print(nova_rijec)
 
 
