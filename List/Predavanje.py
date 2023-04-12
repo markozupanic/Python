@@ -33,6 +33,7 @@ print(abc_list.index("c"))
 # prebrojava trazene elemente
 print(abc_list.count("c"))
 
+#sum zbrajanje
 
 
 # names_list[2] = "david"

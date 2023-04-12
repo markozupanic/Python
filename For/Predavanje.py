@@ -8,7 +8,7 @@ for index in range(len(fruits)):
   
 print("")
   
-#obrnuto
+#obrnuto                    start,stop,step
 for index in range(len(fruits) -1,-1,-1):
     if fruits[index]=="pineapple":
         continue
