@@ -11,6 +11,7 @@ for i in range(0,len(varijabla_znakova)):
     
     if(varijabla_znakova[i].isupper()==True):
         velika_slova+=1
+    
     if(varijabla_znakova[i]=="A"):
         print("Veliko slovo A je pronađeno")
         break
