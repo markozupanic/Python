@@ -2,7 +2,7 @@
 
 rjecnik={}
 
-n=int(input("Unesite broj"))
+n=int(input("Unesite broj:"))
 vrijednost=n*n
 
 rjecnik.setdefault(n)
