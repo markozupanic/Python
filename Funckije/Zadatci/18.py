@@ -1,18 +1,27 @@
 #18. napisi funkciju koja prima string odvojen prazninama te ispisuje rijeci nakon uklanjanja svih duplikata.
 
-def uklanja_duplikate():
-    string="marko i andrea"
+
+def ukloni_duplicate(string):
+    rijeci = string.split()
     
-    string=set(string)
-    print(string)
-        
+    
+    rijeci_bez_duplikata = list(set(rijeci))
+    
+    
+    print("Riječi bez duplikata:")
+    for rijec in rijeci_bez_duplikata:
+        print(rijec,end=" ")
+
+unos = "ovo je je primjer primjer za za funkciju funkciju string string odvojen odvojen prazninama prazninama"
+ukloni_duplicate(unos)
+
+    
 
 
 
 
 
 
-uklanja_duplikate()
 
 
 
