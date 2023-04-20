@@ -21,17 +21,6 @@ print(inventori_vrijednosti)
 inventory.update({"pouch": "flint&tinder"})
 print(inventory)
 
-
-
-
-
-
-#list_inventori=list(inventory)
-#print(list_inventori)
-   
-   
-   
-   
    
 # d) kreirajte pocket te smjestite gold i house key u njega
    
