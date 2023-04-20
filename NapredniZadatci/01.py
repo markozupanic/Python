@@ -31,7 +31,7 @@ while True:
          break
    
         
-    print(str(lista_imena+"\n"))
+    
 
 
 
