@@ -5,24 +5,31 @@
 # napravite metodu koja bi izracunala koliko bi mjeseci (i godina) bilo potrebno da korisnik vrati novac.
 # nadogradite program tako da racuna i kamate na godisnjoj razini te ispisite rezultat.
 
-class Banka:
+class Banka():
     
-    def __init__(self,oib,ime,prezime,stanje_racuna,mjesecni_prihod,osiguranje):
-        self.oib=oib
-        self.ime=ime
-        self.prezime=prezime
-        self.stanje_racuna=stanje_racuna
-        self.mjesecni_prihodi=mjesecni_prihod
-        self.osiguranje=osiguranje
+    def unos_podataka():
+        oib=int(input("Unesite oib: "))
+        ime=input("Unesite ime:")
+        prezime=input("Unesite prezime: ")
+        stanje_racuna=int(input("Stanje računa:"))
+        mjesecni_prihod=int(input("Mjesečni prihodi:"))
+        osiguranje=bool(input("Osiguranje: "))
         
         keys=["oib","ime","prezime","stanje_racuna","mjesecni_prihod","osiguranje"]
         values=[oib,ime,prezime,stanje_racuna,mjesecni_prihod,osiguranje]
         
         banka_dict=dict(zip(keys,values))
+        print({banka_dict.values()})
         return banka_dict
     
+    def metoda_dizanje_kredita(unos_podataka):
+        stanje_racuna=banka_dict.valus(stanje_racuna="")
         
-klijent_prvi=Banka(1568484153,"Marko","Županić",500,1500,True)
+    
+    
+#Banka.unos_podataka()
+        
+#klijent_prvi=Banka(1568484153,"Marko","Županić",500,1500,True)
 
 
 
