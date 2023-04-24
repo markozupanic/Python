@@ -6,7 +6,7 @@
 #e) filtriranje brojeva ili slova, ovisno o trazenom
 #napravite objekte, pozovite i testirajte program.
 
-class ObradaStringa:
+class ObradaStringa():
     
     def kapitaliziranje_prvo_slovo():
         global lista

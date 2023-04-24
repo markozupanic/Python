@@ -1,6 +1,6 @@
 #4. napravite klasu po zelji. neka jedna metoda prima args, a druga kwargs. objektu predajte odgovarajuce vrijednosti te ih ispisite.
 
-class Hero:
+class Hero():
 
     def init(self):
         pass

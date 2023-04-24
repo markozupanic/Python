@@ -1,5 +1,5 @@
 #5. napravite klasu Zaposlenik. neka klasa sadrzi atribute za: ime, godine, mjesecnu placu. u klasi definirajte sljedece:
-class Zaposlenik:
+class Zaposlenik():
     
     def __init__(self,ime,godine,mjesecna_placa,):
         self.ime=ime

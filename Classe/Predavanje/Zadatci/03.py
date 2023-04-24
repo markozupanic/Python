@@ -5,7 +5,7 @@
 # usporedite aute te ispisite koji od njih ima vecu max brzinu, kilometrazu i manju cijenu.
 
 
-class Vozilo:
+class Vozilo():
 
     def __init__(self, marka, model, masa, kilometraza, max_brzina, boja, cijena):
         self.marka = marka
