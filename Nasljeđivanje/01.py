@@ -6,7 +6,7 @@ class Prva():
         self.ime=ime
         self.prezime=prezime 
         
-    def ispis_prva(self):
+    def ispis_prva():
         print("ispis prvi")
         
 
