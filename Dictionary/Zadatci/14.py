@@ -22,7 +22,7 @@ while(True):
   elif(opcija_sta_zeli_unjet==1):
       unos_ime=input("Unesite ime: ")
       ime="ime"
-      ime_dict.setdefault(ime)
+      ime_dict.setdefault("ime")
       ime_dict.update({ime,unos_ime})
       print(ime_dict)
   elif(opcija_sta_zeli_unjet==2):
