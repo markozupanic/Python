@@ -2,10 +2,10 @@
 #elemente prvog polja, ali u obliku 576x720x3. Koja Numpy funkcija je prigodna kako bi se ovo
 #ostvarilo?
 import numpy as np
-shape = (3, 576, 720)
-arr = np.zeros(shape)
+oblik = (3, 576, 720)
+a = np.zeros(oblik)
 
-print(arr)
+print(a)
 
 
 
